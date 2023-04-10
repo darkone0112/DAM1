@@ -1,0 +1,7 @@
+Valencia::Real Betis FC::1::0
+Real Betis FC::Real Madrid CF::2::5
+Sevilla FC::Real Betis FC::1::2
+Deportivo La Coruña::FC Barcelona::0::3
+Real Sociedad::Real Madrid CF::1::2
+Villarreal FC::Sevilla FC::2::4
+Madrid FC::Sevilla FC::2::4

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videoclub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="videoclub.xsd">
+    <cliente id="a1">
+        <dni>6066751D</dni>
+        <nombre>javier</nombre>
+        <apellido1>menendez</apellido1>
+        <apellido2>abreu</apellido2>
+        <telefono>632199366</telefono>
+    </cliente>
+    <factura>
+        <resguardo>
+            <pago>tarjeta</pago>
+            <importe>12</importe>
+        </resguardo>
+        <alquileres fecha="2010-11-12">
+            <pelicula idpelicula="a444" valoracion="10">
+                <titulo>lotr</titulo>
+                <genero>fantasia</genero>
+                <duracion>160</duracion>
+                <actor>
+                    <nombre>aaa</nombre>
+                    <apellidos>aaa</apellidos>
+                </actor>
+                <actor>
+                    <nombre>aaa</nombre>
+                    <apellidos>aaaa</apellidos>
+                </actor>
+                <actor>
+                    <nombre>aaa</nombre>
+                    <apellidos>aaaa</apellidos>
+                </actor>
+            </pelicula>
+        </alquileres>
+        <compras>
+            <dvd fecha="2010-11-12">
+                <extras></extras>
+            </dvd>
+            <cinta>
+                <rebobinada>no</rebobinada>
+                <formato>vhs</formato>
+            </cinta> 
+        </compras>
+    </factura>
+</videoclub>

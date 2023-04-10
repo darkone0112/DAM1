@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "jerarquia.dtd">
+    <persona sexo="masculino">
+        <nombre>Juan Pardo</nombre>
+        <nacimiento dia = "10" mes="abril" anio="1982"></nacimiento>
+        <direccion>
+            <calle>caoba,1</calle>
+            <poblacion>Madrid</poblacion>
+            <provincia>Madrid</provincia>
+            <cpostal>28005</cpostal>
+        </direccion>
+    </persona>

@@ -1,0 +1,33 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="libros">
+		<complexType>
+			<sequence>
+				<element name="libro" minOccurs="0" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="libro">
+		<sequence>
+			<element name="titulo" type="string" />
+			<element name="autor">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="quevedo"></enumeration>
+						<enumeration value="reverte"></enumeration>
+						<enumeration value="cervantez"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="isbn" minOccurs="0" maxOccurs="1" type="string"/>
+            <element name="precio" minOccurs="0" type="integer"/>
+        </sequence>
+	</complexType>
+    <element name="precio">
+        <simpleType>
+            <restriction base="decimal">
+				<minInclusive value="0"></minInclusive>
+				<maxInclusive value="6"></maxInclusive>
+            </restriction>
+        </simpleType>
+    </element>
+</schema>

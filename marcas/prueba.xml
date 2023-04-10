@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase SYSTEM "prueba.dtd">
+
+<clase>
+    <alumno>
+        <nombre></nombre>
+        <apellido1></apellido1>
+        <apellido2></apellido2>
+        <telefono tipo="fijo"></telefono>
+    </alumno>
+    <alumno>
+        <nombre></nombre>
+        <apellido1></apellido1>
+        <apellido2></apellido2>
+        <telefono tipo="movil"></telefono>
+    </alumno>
+    <alumno>
+        <nombre></nombre>
+        <apellido1></apellido1>
+        <apellido2></apellido2>
+        <telefono tipo="fijo"></telefono>
+    </alumno>
+</clase>

@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch accesoAleatorio",
+            "request": "launch",
+            "mainClass": "RAM.accesoAleatorio",
+            "projectName": "3ºtrimestre"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainCiclismo",
+            "request": "launch",
+            "mainClass": "ciclismo.mainCiclismo",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch correoMain",
+            "request": "launch",
+            "mainClass": "correo.correoMain",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainClass",
+            "request": "launch",
+            "mainClass": "empleado.mainClass",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "linkedListPrueba.prueba",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch polideportivoMain",
+            "request": "launch",
+            "mainClass": "polideportivo.polideportivoMain",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exeptions",
+            "request": "launch",
+            "mainClass": "tryThrowYCosasVarias.Exeptions",
+            "projectName": "3ºtrimestre_3f1df875"
+        },
+        {
+            "type": "java",
+            "name": "Launch vipsMain",
+            "request": "launch",
+            "mainClass": "vips.vipsMain",
+            "projectName": "3ºtrimestre_3f1df875"
+        }
+    ]
+}

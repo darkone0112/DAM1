@@ -1,0 +1,3 @@
+madrid::valencia::2::3
+valencia::madrid::5::0
+barcelona::madrid::2::2

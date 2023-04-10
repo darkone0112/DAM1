@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT persona (nombre,nacimiento,direccion)>
+<!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cpostal (#PCDATA)>
+<!ATTLIST persona sexo (femenino|masculino) #REQUIRED>
+<!ATTLIST nacimiento dia CDATA #REQUIRED>
+<!ATTLIST nacimiento mes CDATA #REQUIRED>
+<!ATTLIST nacimiento anio CDATA #REQUIRED>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT libros1 (libro+)>
+<!ELEMENT libro (titulo,autores,editorial,revisores)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nombre,apellidos,email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT editorial (nombre,oficina,pagina)>
+<!ELEMENT oficina (#PCDATA)>
+<!ELEMENT pagina (#PCDATA)>
+<!ELEMENT revisores (revisor)>
+<!ELEMENT revisor (nombre,puntuacion,comentario)>
+<!ELEMENT puntuacion (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ATTLIST libro isbn ID #REQUIRED>

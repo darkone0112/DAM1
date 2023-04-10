@@ -1,0 +1,50 @@
+<lamistad>
+    <futbol>´
+        <equipos>
+            <equipo1>
+                <entrenadores>
+                    <dni></dni>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                    <telefono></telefono>
+                </entrenadores>
+                <jugadores>
+                    <jugador1>
+                        <dni></dni>
+                        <nombre></nombre>
+                        <direccion></direccion>
+                        <localidad></localidad>
+                        <cp></cp>
+                        <telefono></telefono>
+                    </jugador1>
+                </jugadores>
+            </equipo1>
+                <equipo2>
+                    <entrenadores>
+                        <dni></dni>
+                        <nombre></nombre>
+                        <direccion></direccion>
+                        <localidad></localidad>
+                        <cp></cp>
+                        <telefono></telefono>
+                    </entrenadores>
+                    <jugadores>
+                        <jugador1>
+                            <dni></dni>
+                            <nombre></nombre>
+                            <direccion></direccion>
+                            <localidad></localidad>
+                            <cp></cp>
+                            <telefono></telefono>
+                        </jugador1>
+                    </jugadores>
+                </equipo2>
+        </equipos>
+    </futbol>
+    <balonmano>
+
+    </balonmano>
+
+</lamistad>

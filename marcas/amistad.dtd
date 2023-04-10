@@ -1,0 +1,15 @@
+<!ELEMENT amistad (equipo1,equipo2)>
+<!ELEMENT equipo1 (futbol,baloncesto,balonmano)>
+<!ELEMENT equipo2 (futbol,baloncesto,balonmano)>
+<!ELEMENT futbol (entrenadores,jugadores)>
+<!ELEMENT baloncesto (entrenadores,jugadores)>
+<!ELEMENT balonmano (entrenadores,jugadores)>
+<!ELEMENT entrenadores (nombre,direccion,localidad,cp)>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombre,direccion,localidad,cp)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ATTLIST entrenadores dni ID #REQUIRED>
+<!ATTLIST entrenadores telefono CDATA #IMPLIED>

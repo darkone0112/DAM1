@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="videoclub">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="cliente" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="dni">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][A-Z]"></xs:pattern>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="nombre"></xs:element>
+                    <xs:element name="apellido1"></xs:element>
+                    <xs:element name="apellido2"></xs:element>
+                    <xs:element name="telefono"></xs:element>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:ID" use="required" ></xs:attribute>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="factura" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="resguardo">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="pago">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="efectivo"></xs:enumeration>
+                                            <xs:enumeration value="tarjeta"></xs:enumeration>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="importe"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="alquileres" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="pelicula">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="titulo"></xs:element>
+                                            <xs:element name="genero"></xs:element>
+                                            <xs:element name="duracion"></xs:element>
+                                            <xs:element name="actor" minOccurs="3" maxOccurs="3">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="nombre"></xs:element>
+                                                        <xs:element name="apellidos"></xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="idpelicula" type="xs:ID" use="required"></xs:attribute>
+                                        <xs:attribute name="valoracion" use="required">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:minInclusive value="1"></xs:minInclusive>
+                                                    <xs:maxInclusive value="10"></xs:maxInclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                            <xs:attribute name="fecha" type="xs:date" use="required"></xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="compras">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="dvd" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="extras">
+                                                <xs:complexType></xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="fecha" type="xs:date"></xs:attribute>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cinta">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="rebobinada">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="si"></xs:enumeration>
+                                                        <xs:enumeration value="no"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:element>
+                                            <xs:element name="formato"></xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

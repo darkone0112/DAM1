@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:noNamespaceSchemaLocation = "libros.xsd">
+	<libro>
+		<titulo>�jjjjj</titulo>
+	    <autor>kkkk</autor>
+	    <isbn>bc-11111</isbn>
+		<precio>1.20</precio>
+	</libro>
+	<libro>
+		<titulo>�kkkkkkk</titulo>
+	    <autor>jjjjj</autor>
+		<autor>mmmmm</autor>
+	    <isbn>dd-11111</isbn>
+		<precio>1.45</precio>
+	</libro>
+	<libro>
+		<titulo>mmmmmmmmmmmm</titulo>
+	    <autor>bbbbbbbbb</autor>
+	    <precio>3.44</precio>
+	</libro>
+	<libro>
+		<titulo>���hhhhhh</titulo>
+	    <autor>gggggg</autor>
+	  	<precio>6</precio>
+		<precio>5.6</precio>
+		
+	</libro>
+	<libro>
+		<titulo>hhhhhhh</titulo>
+	    <autor>ggggggg</autor>
+	    <isbn>tt-6666</isbn>
+	</libro>	
+</libros>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT clase (alumno, alumno, alumno)>
+<!ELEMENT alumno (nombre,apellido1,apellido2?,telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono tipo (fijo | movil) #REQUIRED>

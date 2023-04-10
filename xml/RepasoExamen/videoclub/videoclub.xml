@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <datos_clientes>
+        <nombre></nombre>
+        <apellido1></apellido1>
+        <apellido2></apellido2>
+        <dni></dni>
+        <telefono></telefono>
+    </datos_clientes>
+    <datos_ticket>
+        <resguardo>
+            <formapago></formapago>
+            <importe></importe>
+        </resguardo>
+        <alquicomp></alquicomp>
+        <alquiler>
+            <peliculas>
+                <titulo></titulo>
+                <genero></genero>
+                <duracion></duracion>
+                <actor1>
+                    <nombre1></nombre1>
+                    <apellidos1></apellidos1>
+                </actor1>
+                <actor2>
+                    <nombre2></nombre2>
+                    <apellidos2></apellidos2>
+                </actor2>
+                <actor3>
+                    <nombre3></nombre3>
+                    <apellidos3></apellidos3>
+                </actor3>
+                <!-- <fechadev></fechadev> -->   
+            </peliculas>
+        </alquiler>
+        <compras>
+            <tipo>
+                <dvd></dvd>
+                <cinta></cinta>
+            </tipo>
+        </compras>
+    </datos_ticket>
+</factura>

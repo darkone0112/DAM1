@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos fecha="20/10/99">
+    <destino>
+        <ciudad>Albacete</ciudad>
+        <direccion>Plaza de la Duquesa 12</direccion>
+        <nombre>Alicia Abad</nombre>
+        <codpostal>05020</codpostal>
+    </destino>
+    <ordenante>
+        <nombre>Roberto Movilla</nombre>
+        <ciudad>Madrid</ciudad>
+        <direccion>General Ricardos 56</direccion>
+        <codpostal>28055</codpostal>
+    </ordenante>
+    <observaciones>Es urgente</observaciones>
+    <productos>
+        <producto tipo="electrica" codigo="872-AA">
+            <nombre>Cortadora de Cesped</nombre>
+            <cantidad>1</cantidad>
+            <observaciones>Que sea electrica</observaciones>
+            <precio>148,95 euros</precio>
+        </producto>
+        <producto tipo="nodefinido" codigo="926-FH">
+            <nombre>Podadoras de Cesped</nombre>
+            <cantidad>3</cantidad>
+            <observaciones>No esta definido</observaciones>
+            <precio>7,98 euros</precio>
+        </producto>
+    </productos>
+</pedidos>

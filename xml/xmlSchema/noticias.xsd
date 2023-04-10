@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="noticias">
+		<complexType>
+			<sequence>
+				<element name="noticia" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="titulo" type="string" minOccurs="1"/>
+						<element name="autor" type="string" minOccurs="1" maxOccurs="2"/>
+						<element name="url" minOccurs="1">
+							<complexType>
+								<attribute name="direccion" type="string" use="required"/>
+							</complexType>
+						</element>
+						<element name="texto" type="string" minOccurs="0" maxOccurs="1"/>
+						<element name="foto" type="string" minOccurs="0" maxOccurs="1"/>
+					</sequence>
+					<attribute name="fecha" type="date" use="required"/>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

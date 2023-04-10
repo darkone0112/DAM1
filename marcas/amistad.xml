@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE amistad SYSTEM "amistad.dtd">
+<amistad>
+    <equipo1>
+        <futbol>
+            <entrenadores dni="y6066751d" telefono="">
+                <nombre>q</nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </futbol>
+        <baloncesto>
+            <entrenadores dni="y6066751e" telefono="">
+                <nombre></nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </baloncesto>
+        <balonmano>
+            <entrenadores dni="y5055141a" telefono="">
+                <nombre></nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </balonmano>
+    </equipo1>
+    <equipo2>
+        <futbol>
+            <entrenadores dni="aaaa" telefono="">
+                <nombre></nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </futbol>
+        <baloncesto>
+            <entrenadores dni="ss2222" telefono="">
+                <nombre></nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </baloncesto>
+        <balonmano>
+            <entrenadores dni="a32" telefono="">
+                <nombre></nombre>
+                <direccion></direccion>
+                <localidad></localidad>
+                <cp></cp>
+            </entrenadores>
+            <jugadores>
+                <jugador>
+                    <nombre></nombre>
+                    <direccion></direccion>
+                    <localidad></localidad>
+                    <cp></cp>
+                </jugador>
+            </jugadores>
+        </balonmano>
+    </equipo2>
+</amistad>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fondos SYSTEM "biblioteca.dtd">
+<fondos>
+    <objetos>
+        <elementosSonoros>
+            <elementoSonoro id="">
+                <codigo></codigo>
+                <tipo></tipo>
+                <cantidad></cantidad>
+                <descripcion></descripcion>
+            </elementoSonoro>
+        </elementosSonoros>
+        <elementosVisuales>
+            <elementoVisual id="">
+                <codigo></codigo>
+                <tipo></tipo>
+                <cantidad></cantidad>
+                <descripcion></descripcion>
+            </elementoVisual>
+        </elementosVisuales>
+        <elementosAudioVisuales>
+                <elementoAudiovisual id_a = "" id_v="">
+                    <codigo></codigo>
+                    <tipo></tipo>
+                    <descripcion></descripcion>
+                    <cantidad></cantidad>
+                </elementoAudiovisual>
+        </elementosAudioVisuales>
+        <elementosManuscritos>
+
+        </elementosManuscritos>
+    </objetos>
+</fondos>

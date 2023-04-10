@@ -1,0 +1,16 @@
+
+<person>
+    <nombre>Juan Pardo</nombre>
+    <nacimiento>
+        <dia>10</dia>
+        <mes>abril</mes>
+        <año>1982</año>
+    </nacimiento>
+    <direccion>
+        <calle>caoba,1</calle>
+        <poblacion>madrid</poblacion>
+        <provincia>madrid</provincia>
+        <cpostal>28005</cpostal>
+    </direccion>
+    <sexo>varon</sexo>   
+</person>   

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="persona">
+        <complexType>
+            <sequence>
+                <element name="datos">
+                    <complexType>
+                        <sequence>
+                            <element name="nombre" type="string" maxOccurs="1"></element>
+                            <element name="apellidos" type="string" minOccurs="1"></element>
+                            <element name="dni" type="string" minOccurs="1" maxOccurs="1"></element>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="comentario"></element>
+            </sequence>
+            <attribute name="nacimiento" type="date" use="required"></attribute>
+        </complexType>
+    </element>
+</schema>

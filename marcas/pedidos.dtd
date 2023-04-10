@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pedidos (destino,ordenante,observaciones,productos)>
+<!ELEMENT destino (ciudad,direccion,nombre,codpostal)>
+<!ELEMENT ordenante (nombre,ciudad,direccion,codpostal)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre,cantidad,observaciones?,precio)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codpostal (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ATTLIST pedidos fecha CDATA #REQUIRED>
+<!ATTLIST producto tipo (electrica|gasolina|nodefinido) #REQUIRED>
+<!ATTLIST producto codigo CDATA #REQUIRED>
